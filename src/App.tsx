@@ -2,6 +2,8 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-reac
 
 export default function App() {
     return (
+        <div>
+            <h1>Social media signup example</h1>
         <header>
             <SignedOut>
                 <SignInButton/>
@@ -10,5 +12,6 @@ export default function App() {
                 <UserButton/>
             </SignedIn>
         </header>
+        </div>
     );
 }
