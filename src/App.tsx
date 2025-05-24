@@ -42,7 +42,7 @@ const App = () => {
     return (
         <div>
             <h1 className="text-3xl font-bold underline">Social media signup example</h1>
-            <button onClick={fetchData}>Get Token</button>
+            <button className='bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded m-2' onClick={fetchData}>Get Token</button>
             <header className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded m-2">
                 <SignedOut>
                     <SignInButton />
